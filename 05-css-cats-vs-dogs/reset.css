@@ -73,4 +73,13 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+header {
+		float: center;
+		padding: 20px;
+	
+}
+top-nav {
+		float:left;
+		}
+
 
