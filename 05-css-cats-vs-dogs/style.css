@@ -73,6 +73,87 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+/* logo replacement */
 
+header#site-header h1 { position:absolute; left:10px; top:10px; }
+header#site-header h1 a { display:block; width:200px; height:200px; background:url(images/logo.png) top center no-repeat; text-indent:-9999px; }
+
+<style>
+
+.pagewrapper {
+		width:960px;
+		margin:0 auto 0 auto;
+}
+
+body {
+	width:960px;
+	margin:0 auto;
+}
+
+h1 {
+		font-size:18px;
+		position:relative;
+		font-family:helvetica;
+}
+
+
+#top-nav {
+		position:absolute;
+		left:8%;
+		top:8%;
+}
+
+img {
+		margin:10px;
+		position:relative;
+		width:400px;
+}
+
+article {
+		float:left;
+		margin:10px;
+		width:400px;
+}
+
+#site-footer {
+		clear:both;
+		position:relative;
+}
+		
+#site-footer p1 {
+		float:left;
+		margin:10px;
+}
+
+#site-footer p2 {
+		float:right;
+		margin:10px;
+}
+
+p {
+		font-family:helvetica;
+		font-size:10px;
+}
+
+header img {
+		position:relative;
+		top: 25%;
+		left:25%;	
+}
+
+nav ul {
+	width:960px;
+	margin:0 auto;
+	margin-left:180px;
+	font-family:helvetica;
+}
+
+nav li {
+	line-height:105px;
+	float:left;
+	text-align:center;
+	width:150px;
+	font-family:helvetica;
+}
 
 
