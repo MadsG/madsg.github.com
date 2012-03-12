@@ -51,13 +51,13 @@ table {
 }
 
 #site-wrapper {
-		height:120px;
+		height:100px;
 		width:950px;
-		background-color:pink;
+
 }
 
 #site-header {
-		background-color:lightgreen;
+		background-color:#eef4d7;
 		height:100px;
 		width:950px;
 }
@@ -82,8 +82,9 @@ header img {
 }
 		
 nav ul {
-	position:relatively;
+	position:relativ;
 	font-family:helvetica;
+	margin-left:135px;
 }
 
 nav li {
@@ -99,7 +100,7 @@ nav li {
 
 #top-nav a {
 	text-decoration:none;
-	color:brown;
+	color:#744918;
 	padding:5px;
 	
 }
@@ -108,13 +109,16 @@ nav li {
 	text-decoration:none;
 	color:white;
 	padding:5px;
+	
+
 
 }
 
 #menu-wrapper {
-	background-color:brown;
+	background-color:#744918;
 	height:30px;
 	width:950px;
+	border-bottom: 50px; #744918;
 }
 
 article {
@@ -219,13 +223,14 @@ h3 {
 }
 
 #site-footer {
-		background-color:brown;
+		background-color:#744918;
 		height:200px;
 		width:950px;
 }
 
 #footer-wrapper {
-		background-color:pink;
+		background-color:#fcf7f7;
 		height:250px;
 		width:950px;
+		padding: 10px 0 0 0;
 }
