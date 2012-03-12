@@ -76,9 +76,9 @@ table {
 
 header img {
 		position:absolutely;
-		margin:20px;
-		margin-left:142px;
+		margin-left:150px;
 		padding:10px;
+		height:70px;
 }
 		
 nav ul {
@@ -92,6 +92,8 @@ nav li {
 	font-family:helvetica;
 	padding:10px;
 	font-size:11px;
+	margin-left:10px;
+	
 	
 }
 
