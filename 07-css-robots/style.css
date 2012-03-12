@@ -50,21 +50,27 @@ table {
 	border-spacing: 0;
 }
 
-#sitewrapper {
-		width:960px;
-		margin:0 auto 0 auto;
+#site-wrapper {
+		height:120px;
+		width:950px;
+		background-color:pink;
 }
+
+#site-header {
+		background-color:lightgreen;
+		height:100px;
+		width:950px;
+}
+
 
 #top-nav {
 		position:relatively;
-		width:220px;
-		margin:0 auto;
 		margin-top:-90px;
 		margin-left:570px;
-		height:10px;
+		height:12px;
 		text-decoration:none;
 		font-family:helvetica;
-		font-size:7px;
+		font-size:11px;
 		color:brown;
 }
 
@@ -77,28 +83,36 @@ header img {
 		
 nav ul {
 	position:relatively;
-	width:920px;
-	margin:0 auto;
-	margin-left:65px;
-	padding:50px;
 	font-family:helvetica;
 }
 
 nav li {
 
 	float:left;
-	text-align:left;
-	width:20px;
 	font-family:helvetica;
-	padding:35px;
+	padding:10px;
 	font-size:11px;
-	background:pink;
+	
 }
 
-
-a {
+#top-nav a {
 	text-decoration:none;
 	color:brown;
+	padding:5px;
+	
+}
+
+#main-menu a {
+	text-decoration:none;
+	color:white;
+	padding:5px;
+
+}
+
+#menu-wrapper {
+	background-color:brown;
+	height:30px;
+	width:950px;
 }
 
 article {
@@ -113,28 +127,28 @@ article {
 
 h1 {
 		font-size:24px;
-		position:relative;
+		position:relatively;
 		font-family:helvetica;
 		line-height:30px;
 }
 
 h2 {
 		font-size:14px;
-		position:relative;
+		position:relatively;
 		font-family:helvetica;
 		line-height:30px;
 }
 
 h3 {
 		font-size:14px;
-		position:relative;
+		position:relatively;
 		font-family:helvetica;
 		line-height:30px;
 }
 
 #sidebar h1 {
 		font-size:14px;
-		position:relative;
+		position:relatively;
 		font-family:helvetica;
 		line-height:30px;
 }
@@ -163,6 +177,8 @@ h3 {
 		margin-top:130px;
 		font-family:helvetica;
 		font-size:14px;
+		padding-top:5px;
+		color:white;
 		
 }
 
@@ -175,6 +191,7 @@ h3 {
 		font-family:helvetica;
 		font-size:10px;
 		line-height:10px;
+		color:white;
 }
 
 #footer-follow h1{
@@ -185,6 +202,7 @@ h3 {
 		width:300px;
 		font-family:helvetica;
 		font-size:14px;		
+		color:white;
 }
 
 #footer-follow img{
@@ -193,8 +211,19 @@ h3 {
 		margin-bottom:550px;
 		margin-top:-70px;
 		margin-left:-285px;
-		width:40px;
 		height:40px;
 		padding:5px;
 		
+}
+
+#site-footer {
+		background-color:brown;
+		height:200px;
+		width:950px;
+}
+
+#footer-wrapper {
+		background-color:pink;
+		height:250px;
+		width:950px;
 }
