@@ -90,32 +90,6 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 
 }
 
- #pagewrapper { width:100%; margin:0 auto; max-width:1024px; }
-  #content { float:left; width:100%; }
-  #site-footer {float:left; width:100%;}
-  #top-nav {width:100%; margin:0 auto; float:left; }
-	header img {width:40%; margin: 0% 0% 0% 25%;}
-	img { max-width:100%; padding:10% 0% 10% 5%; }
-	article { float:left; width:100%;}
-
-    
-
-  
- @media screen and (max-width:400px) {
-    #content { float:none; width:70%; margin:0 1%; }
-    #site-footer { float:none; width:40%; margin:0 1%;}
-    #top-nav {width:40%;}
-    body { font-size:0.5em; }
-    p { font-size:1.8em; width:70%; }
-    h1 { font-size:4em; }
-  	h2 { font-size:3em; }
- 	img { max-width:70%; padding:5% 0% 5% 5%; }
- 	article { float:left; width:70%; margin:10% 0% 0% 10%;}
- 	header img {width:25%; margin:0% 100% 0% 0%;}
-
-    
-}
-
 
 .pagewrapper {
 		width:960px;
@@ -128,39 +102,46 @@ body {
 	margin:0 auto;
 }
 
-h1 {
-		font-size:18px;
-		position:relative;
+header{
+	height:120px;
+	}
+
+header h2 {
+		font-size:80px;
 		font-family: 'LeagueGothicRegular';
 		line-height:30px;
 		float:left;
+		padding:40px 5px 0px 340px;
+
 }
 
-h2 {
-		font-size:18px;
-		position:relative;
-		font-family: Georgia;
-		line-height:30px;
+header h3 {
+		font-size:50px;
+		font-family:Georgia;
 		font-weight:bold;
 		font-style:italic;
-		float-left;
+		line-height:30px;
+		float:left;
+		margin-top:30px;
+		padding:5px 5px 15px 10px;
+		border-top: 2px solid black; 
+		border-bottom: 2px solid black;
 		
 }
-
-h3 {
-		font-size:18px;
-		position:relative;
+header h4 {
+		font-size:80px;
 		font-family: 'LeagueGothicRegular';
 		line-height:30px;
 		float:left;
+		padding:40px 5px 0px 10px;
 		
 }
 
 img {
-		margin:-18px;
+		float:left;
 		position:relative;
 		width:400px;
-
+		padding:20px 0px 10px 0px;
 }
 
 article {
@@ -173,9 +154,8 @@ article {
 
 #site-footer {
 		clear:both;
-		float:left;
+		position:relative;
 		border-top: 5px solid black;
-		margin:0 auto;
 }
 		
 #site-footer p1 {
@@ -193,7 +173,7 @@ article {
 	}
 
 #site-footer p2 {
-		float:left;
+		float:right;
 		margin:30px;
 		font-size:10px;
 		font-family:helvetica;
@@ -205,23 +185,21 @@ p {
 		font-size:10px;
 }
 
-header img {
-		position:relative;	
-		padding:50px;
-		
-}
+
 
 #top-nav {
 		position:relative;
+		width:920px;
+		margin:0 auto;
 		border-top: 5px solid black;
 		border-bottom: 5px solid black;
 		height:50px;
-
 }
 
 nav ul {
-	float:left;
-	width: 950px;
+	position:relative;
+	width:920px;
+	margin:0 auto;
 	margin-left:40px;
 	font-family:helvetica;
 
@@ -231,9 +209,10 @@ nav ul {
 nav li {
 
 	float:left;
+	text-align:left;
 	width:139px;
 	font-family:helvetica;
-	margin:20px;
+	padding:20px;
 }
 
 a {
@@ -245,7 +224,8 @@ a {
     float:left;
     list-style:disc;
     color:black;
-
+    width:920px;
+	margin:0 auto;
 
     }
     
@@ -253,4 +233,7 @@ a {
 list-style-type: none;
 }
 
-
+article h1 {
+	font-family: 'LeagueGothicRegular';
+	padding-bottom:10px;
+	}

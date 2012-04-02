@@ -1,0 +1,174 @@
+
+
+/* Meyer Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+#site-wrapper {
+	background-color:#709CB2;
+	height:150px;
+	width:1362px;
+	margin:0px 0px 0px 50px;
+
+}
+
+nav a { color:yellow;
+	text-decoration:none;
+	font-size:16px;
+}
+
+
+
+#site-header {
+		height:20px;
+		width:1362px;
+		margin:0 auto;
+}
+
+		
+nav ul {
+	position:absolute;
+	font-family:helvetica;
+	background-color:#1F4E63;
+	width:1360px;
+	padding-left:60px;
+
+}
+
+nav li {
+	float:left;
+	font-family:helvetica;
+	padding:10px;
+	font-size:11px;
+	padding-left:25px;
+	padding-right:40px;
+	
+
+}
+	
+
+#main-menu a {
+	text-decoration:none;
+	color:white;
+	
+	
+}
+
+#menu-wrapper {
+	height:0px;
+	width:1362px;
+
+	
+
+}
+
+article {
+		float:left;
+		margin:0 auto;
+		line-height:13px;
+		font-family:helvetica;
+		font-size:8px;
+}
+
+#content-wrapper {
+		background-color:#FFF097;
+		width:1360px;
+		height:1000px;
+		margin:0px 0px 0px 50px;
+}
+
+
+
+#content {
+
+		width:1362px;
+		padding:70px;
+		float:left;
+		
+}
+
+#page {
+		width:1362px;
+}
+
+
+
+
+h2 {
+		font-size:30px;
+		font-family:helvetica;
+		padding:40px 50px 40px 0px;
+
+	
+}
+
+p {
+	font-size:20px;
+	float:left;
+	padding:30px 0px 20px 30px;
+	}
+
+article img {
+		float:left;
+		width:500px;
+		height:200px;
+		padding:100px 0px 50px 50px;
+		}
+
+aside a {
+		float:left;
+		color:blue;
+		font-family:helvetica;
+		font-size:30px;
+		text-decoration:none;
+		padding:100px 0px 50px 20px;
+		}
+
