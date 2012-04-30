@@ -3,6 +3,15 @@
 	<head>
     	<title>Catagories</title>
    		<link rel="stylesheet" type='text/css' href="Cata-style.css" />
+   		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("#accordion").accordion();
+	$( ".selector" ).accordion({ collapsible: true });
+  });
+  </script>
  </head>
     <header>
     	<div id="pagewrapper">
@@ -15,31 +24,36 @@
          	  <li id="circle1"><a href="Catagories.html">CATEGORY</a></li>
      	  </div> 
     <div id="box2">
-          	  <li id="circle2"><a href="Data.html">DATA</a></li>
+          	  <li id="circle2"><a href="Data1.html">DATA</a></li>
      	  </div> 	
     <div id="box3">
           	  <li id="circle3"><a href="Buy.html">BUY</a></li>
-      	  </div>  
-     	 </div>
+      	  </div> 
+    <div id="top-nav">
+        	<a href="Login.html">LOGIN</a>
+        	<a href="Opening-Page.html">CREATE LOGIN</a>
+          </div>
        	</ul>
        </header>
        	 
 <body>
-	<aside id='sidebar'>
+<div id="accordion">
+	<div id="sidebar">
       <ul>
         <li>
-        	<a href="#">Category 1</a></li>
+        	<a href="Catagories.html">Category 1</a></li>
         <li>
-        	<a href="#">Category 2</a></li>
+        	<a href="Catagories2.html">Category 2</a></li>
         <li>
-        	<a href="#">Category 3</a></li>
+        	<a href="Catagories3.html">Category 3</a></li>
         <li>
-        	<a href="#">Category 4</a></li>
+        	<a href="Catagories4.html">Category 4</a></li>
         <li>
-        	<a href="#">Category 5</a></li>
+        	<a href="Catagories5.html">Category 5</a></li>
         <li>
-        	<a href="#">Category 6</a></li>
-
+        	<a href="Catagories6.html">Category 6</a></li>
+		</div>
+		</div>
       </ul>
     </aside>
 

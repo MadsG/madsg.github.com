@@ -135,6 +135,7 @@ li {
 }
 
 #circle {
+	position:relative;
 	width: 100px;
 	height: 100px;
 	background:#AC8D2B;
@@ -146,6 +147,7 @@ li {
 
 
 #circle1 {
+	position:relative;
 	width: 200px;
 	height: 200px;
 	background:#D1A119;
@@ -156,6 +158,7 @@ li {
 }
 
 #circle2 {
+	position:relative;
 	width: 300px;
 	height: 300px;
 	background:#E2B21B;
@@ -166,7 +169,7 @@ li {
 }
 
 #circle p {
-	font-size:16px;
+	font-size:15px;
 	font-family:helvetica;
 	text-align:center;
 	padding:25px 0px 0px 2px;
@@ -175,39 +178,62 @@ li {
 }
 
 
-#circle1 li {
-	font-size:30px;
+#circle1 p {
+	font-size:24px;
 	font-family:helvetica;
 	text-align:center;
-	padding:60px 0px 0px 0px;
-	line-height:35px;
+	padding:38px 0px 0px 0px;
+	line-height:30px;
+	color:white;
 }
 
 #circle2 p {
-	font-size:35px;
+	font-size:45px;
 	text-align:center;
 	font-family:helvetica;
-	padding:70px 0px 0px 0px;
+	padding:60px 0px 0px 0px;
 	color:white;
-	line-height:40px;
+	line-height:50px;
+	
+}
+
+#circle4 a{
+	font-size:16px;
+	text-align:center;
+	font-family:helvetica;
+	color:white;
+	margin: -30px 0px 0px -20px;
+	display:block;
+	text-decoration:none;
+}
+
+#circle4 {
+	width: 35px;
+	height: 5px;
+	background:#AC8D2B;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 120px;
+
 	
 }
 
 
 #circle2 form {
-	font-size:13px;
+	font-size:15px;
 	text-align:center;
 	font-family:helvetica;
-	padding:20px 0px 0px 5px;
+	padding:10px 0px 0px 0px;
 	color:white;
 	
 }
 
-#footer {
-	height:200px;
-	}
-
-a {
-	text-decoration:none;
+#circle1 form {
+	font-size:14px;
+	text-align:center;
+	font-family:helvetica;
+	padding:10px 0px 0px 5px;
 	color:white;
+	
 }

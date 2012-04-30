@@ -101,7 +101,7 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 #content-wrapper {
 		width:800px;
 		margin:100px 0px 0px 280px;
-		height:350px;
+		height:450px;
 		border-style:dotted 4px;
 		border:dotted 4px;
 		border-color:#AC8D2B;
@@ -112,12 +112,13 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 		
 		
 		
+		
 }
 
 content {
 	float:left;
 	margin:50px 0px 0px 0px;
-	width:1100px
+	width:1100px;
 	
 }
 
@@ -331,14 +332,29 @@ article h1 {
 	float:left;
 }
 
-article h2 {
-	padding:0px 0px 0px 30px;
+#aside h1 {
+	padding:0px 0px 0px 40px;
 	font-family:helvetica;
 	color:#006E82;
 	font-size:23px;
 	float:left;
 }
 
+#aside iframe {
+	margin:20px 30px 0px 40px;
+	}
+	
+#aside small a{
+	margin:50px 30px 0px 40px;
+	text-decoration:none;
+	}
+
+#aside a{
+	text-decoration:none;
+	color:#AC6D2B;
+	}
+	
+	
 header a {
 	text-decoration:none;
 }
@@ -354,11 +370,22 @@ article p {
 
 }
 
-
 article p2 {
 	float:left;
 	font-family:helvetica;
-	margin:5px 30px 0px 30px;
+	margin:15px 30px 0px 0px;
+	font-size:16px;
+	color:black;
+	width:390px;
+	line-height:20px;
+
+
+}
+
+#aside {
+	float:left;
+	font-family:helvetica;
+	margin:-25px 30px 0px 30px;
 	font-size:16px;
 	color:black;
 	width:250px;
@@ -380,10 +407,15 @@ body {
 	border-bottom-right-radius: 10px 10px;
 }
 
-#sidebar a:first-child { 
-	background-color:#006E82;
-	border-top-left-radius: 10px 10px;
-	border-top-right-radius: 10px 10px;
-	border-bottom-left-radius: 10px 10px;
-	border-bottom-right-radius: 10px 10px;
+#top-nav{
+	color:#AC6D2B;
+	margin:-160px 0px 0px 850px;
+	font-family:helvetica;
+	font-size:11px;
+	}
+
+#top-nav a {
+	position:relative;
+	padding:0px 10px 0px 0px;
+	color:#AC6D2B;
 }
